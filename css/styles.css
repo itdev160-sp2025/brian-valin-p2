@@ -1,0 +1,26 @@
+body {
+    font-family: "Port Lligat Sans", sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+    text-overflow: ellipsis;
+    max-width: 600px;
+    margin: auto 30px;
+}
+
+header{
+    text-align: center;
+}
+
+table {
+    text-align: right;
+}
+
+input {
+    text-align: right;
+}
+
+button{
+    margin: auto;
+    display: block;
+}

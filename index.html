@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Permanent+Marker&family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Hypergeometric Calculator</h1>
+    </header>
+    <main>
+        <form>
+            <table>
+                <tr>
+                    <td class="label">Population Size:</td>
+                    <td><input type="text" id="population"></td>
+                </tr>
+                <tr>
+                    <td class="label">Number of Successes in Population:</td>
+                    <td><input type="text" id="successes_in_pop"></td>
+                </tr>
+                <tr>
+                    <td class="label">Sample Size:</td>
+                    <td><input type="text" id="sample"></td>
+                </tr>
+                <tr>
+                    <td class="label">Number of Success in Sample:</td>
+                    <td><input type="text" id="successes_in_sample"></td>
+                </tr>
+                <tr>
+                    <td>Hypergeometric Probability: </td>
+                    <td><output id="exact">0</output></td>
+                </tr>
+                <tr>
+                    <td>Probability of Fewer Successes</td>
+                    <td><output id="lessThan">0</output></td>
+                </tr>
+                <tr>
+                    <td>Probability of Fewer or Equal Successes</td>
+                    <td><output id="lessThanEqual">0</output></td>
+                </tr>
+                <tr>
+                    <td>Probability of More Successes</td>
+                    <td><output id="greaterThan">0</output></td>
+                </tr>
+                <tr>
+                    <td>Probability of More or Equal Successes</td>
+                    <td><output id="greaterThanEqual">0</output></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <div class="wrapper"><button type="button" id="calculate">Calculate</button></div>
+        </form>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
